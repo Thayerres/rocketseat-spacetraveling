@@ -1,0 +1,44 @@
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--heading);
+}
+
+.image{
+  display: block;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  gap: 24px;
+
+  svg {
+    font-size: 15px;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--info);
+  }
+}
+
+.content_title{
+  margin: 64px 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--heading)
+}
+
+.content_body{
+   font-size: 18px;
+  color: var(--body)
+}
+
+.content:last-child {
+  margin-bottom: 80px;
+}
